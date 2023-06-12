@@ -1,17 +1,74 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        //програма для знаходження більшого з чисел
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        /*
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your first number");
+        Integer firstnum = scanner.nextInt();
+        System.out.println("Enter your second number");
+        Integer secondnum = scanner.nextInt();
+
+        if (firstnum > secondnum) {
+            System.out.println("The first number is bigger!");
         }
+        if (secondnum > firstnum) {
+            System.out.println("The second number is bigger!");
+
+        }
+        else {
+            System.out.println("Your numbers are equal");
+        }
+
+        */
+
+
+//Програма для знаходження меншого з чисел.
+/*
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Enter your first number");
+    Integer firstnum = scanner.nextInt();
+    System.out.println("Enter your second number");
+    Integer secondnum = scanner.nextInt();
+
+    if (firstnum < secondnum) {
+        System.out.println( "The first number is less!");
+
     }
+    if (secondnum < firstnum) {
+
+    System.out.println("The second number is less!");
+    }
+    else {
+        System.out.println("Your numbers are equal!q");
+    }
+
+*/
+
+        //програма для перевірки числа на парність
+
+
+
+/*
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your number");
+        Integer number = scanner.nextInt();
+        if (number % 2 == 0) {
+            System.out.println("Your number is even!");
+        }
+        else {
+            System.out.println("Your number is odd");
+        }
+
+*/
+
+    }
+
+
+
+
+
 }
